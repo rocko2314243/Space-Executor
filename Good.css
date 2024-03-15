@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient( #8b6cc4,#3e256d);
+    height: 1000px;
+    font-family:sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+button#Yellow{
+    cursor: pointer;
+    color: white;
+   background-image: linear-gradient( #f7c748,#fdb943);
+   border-style: none;
+   border-bottom:2px solid #7f4129;
+   border-radius: 5px;
+}
+button#Yellow:active{
+    background-image: linear-gradient( #fdd871,#ffcd76);
+    border-style: none;
+    border-bottom:1px solid #7f4129;
+    border-radius: 5px;
+ }
+button#Green{
+   color: white;
+    cursor: pointer;
+    background-image: linear-gradient( #8bba44,#7fb042);
+    border-style: none;
+    border-bottom:2px solid #466e28;
+    border-radius: 5px;
+ }
+ button#Try{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(237, 240, 245);
+    border-style: none;
+    color: rgb(58, 70, 118);
+    border-radius: 5px;
+    -ms-transform: translateX(880%);
+    transform: translateX(880%);
+ }
+ button#Try:active{
+    background-color: rgb(108, 93, 211);
+    border-style: none;
+    color: rgb(237, 240, 245);
+    border-radius: 5px;
+ }
+ button#Try2{
+   cursor: pointer;
+   width: 100px;
+   height: 20px;
+   background-color: rgb(237, 240, 245);
+   border-style: none;
+   color: rgb(58, 70, 118);
+   border-radius: 5px;
+   -ms-transform: translate(990%,-200%);
+   transform: translate(990%,-200%);
+}
+button#Try2:active{
+   background-color: rgb(108, 93, 211);
+   border-style: none;
+   color: rgb(237, 240, 245);
+   border-radius: 5px;
+}
+ button#Green:active{
+    background-image: linear-gradient( #b4db74,#9dc963);
+    border-style: none;
+    border-bottom:1px solid #466e28;
+    border-radius: 5px;
+ }
+ input[type=text]#CMDs{
+    background-image: linear-gradient( #3a3a3a,#000000);
+    color: #ffffff;
+    width: 300px;
+    height: 20px;
+    border-style: none;
+    border-bottom:2px solid #000000;
+    border-radius: 5px;
+ }
+
+ div#Thanks{
+   background-image: linear-gradient( #2d1a52,#140c22);
+   -ms-transform: translateY(-8%);
+   transform: translateY(-8%);
+   width: auto;
+   height: 100px;
+ }
