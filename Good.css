@@ -67,6 +67,23 @@ button#Try2:active{
    color: rgb(237, 240, 245);
    border-radius: 5px;
 }
+ button#Try3{
+   cursor: pointer;
+   width: 100px;
+   height: 20px;
+   background-color: rgb(237, 240, 245);
+   border-style: none;
+   color: rgb(58, 70, 118);
+   border-radius: 5px;
+   -ms-transform: translate(1000%,-200%);
+   transform: translate(1000%,-200%);
+}
+button#Try3:active{
+   background-color: rgb(108, 93, 211);
+   border-style: none;
+   color: rgb(237, 240, 245);
+   border-radius: 5px;
+}
  button#Green:active{
     background-image: linear-gradient( #b4db74,#9dc963);
     border-style: none;
